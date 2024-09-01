@@ -1,11 +1,9 @@
-# Behavioural Cloning Section
-This section we will use the power of Deep Learning to have the car drive like a human driver.
+# Road Sign Classification Section
+This section we will perform road sign classification using Machine Learning algorithms.
 
 # TODO:
-- Open Webots by double clicking the file "Self-Driving-Cars/words/city.wbt"
-- Run the code the file "1_create_dataset.py", drive around, while doing it the code will generate the dataset that we will use to train
-- Run the individual cells of "2_dataset_insights.ipynb" to get interesting ingishts about the dataset that you have generated
-- Run "3_train.py", this will use the dataset that we just generated to create a model that will drive like us (while generating the dataset, "1_create_dataset.py")
-- Run "4_run_model.py" to see it drive
-    - Remember: you can use the arrow keys of your keyboard (or an Xbox controller) to correct the path of the vehicle if you thinig that it will crash
-- Run the individual cells of "5_explain.py" to better understand why the model drives as it does
+- Open the file "1_hot.ipynb" run all the cells of the notebook and make sure that you understand how HOG works
+- Open the "hog_svm.py" file and run it to make sure it works as expected
+    - Modify the code to do exactly the same but without using "sklearn.pipeline.Pipeline"
+    - You will have to implement the operations sequentially (RGB2Grayscale, Hogtransform, ...) ensure that you understand the difference between "fit" and "transform"
+- Run the file "3_cnn.ipynb", you don't have to understand it yet (you will be able to understand it after the deep learning section), simply compare the results of using HOG+SVM vs Deep Learning (CNN)
