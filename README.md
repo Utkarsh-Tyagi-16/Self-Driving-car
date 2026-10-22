@@ -377,6 +377,3 @@ Trained weights will be saved into the `models/` folder.
   *A: Deep learning models in autonomous driving operate as black boxes. LIME perturbs superpixels to evaluate which visual features contribute positively or negatively to the steering prediction, ensuring the model focuses on lanes and road borders rather than background noise.*
 
 ---
-
-## 📜 License
-This project is open-source and licensed under the [MIT License](LICENSE).
