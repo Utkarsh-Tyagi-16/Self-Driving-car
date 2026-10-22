@@ -5,7 +5,6 @@
 [![TensorFlow](https://img.shields.io/badge/Deep%20Learning-TensorFlow%20%2F%20Keras-orange.svg)](https://tensorflow.org/)
 [![OpenCV](https://img.shields.io/badge/Computer%20Vision-OpenCV-green.svg)](https://opencv.org/)
 [![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-yellow.svg)](https://scikit-learn.org/)
-[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 
 An end-to-end autonomous driving platform combining **Robotics Simulation (Webots)**, **Classical Computer Vision**, **Machine Learning & Deep Learning (HOG+SVM, CNN Behavioral Cloning)**, **2D LiDAR Collision Avoidance**, and **Explainable AI (LIME)**.
 
